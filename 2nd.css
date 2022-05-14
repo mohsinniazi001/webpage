@@ -1,0 +1,309 @@
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 27px;
+    color: red;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 80px 15px 0px 15px;
+    text-transform: uppercase;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.putimg {
+    width: 100%;
+    height: 700px;
+    /* background-image: url('images/one.jfif'); */
+}
+
+.putimg img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.service-text {
+    padding: 10px 20px;
+}
+
+.service-text h1 {
+    font-size: 25px;
+    color: red;
+}
+
+.warranty {
+    width: 90%;
+    height: 430px;
+    margin: 0px auto;
+}
+
+.warranty h1 {
+    text-align: center;
+}
+
+.warr-left {
+    float: left;
+    width: 50%;
+}
+
+.warr-left h1 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.warr-left button {
+    color: red;
+    background-color: black;
+    padding: 6px 10px 6px 10px;
+    margin-left: 190px;
+    margin-top: 16px;
+    border: none;
+}
+
+.warr-left p {
+    width: 80%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.warr-left img {
+    width: 100%;
+    height: 260px;
+}
+
+.warr-right {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.warr-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.warr-right h1 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.warr-right button {
+    color: red;
+    background-color: black;
+    padding: 6px 10px 6px 10px;
+    margin-left: 190px;
+    margin-top: 40px;
+    border: none;
+}
+
+.warr-right p {
+    width: 40%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+
+/* again same classes use for same work */
+
+.warranty {
+    width: 90%;
+    height: 430px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.warr-left {
+    float: left;
+    width: 50%;
+}
+
+.warr-left h1 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.warr-left button {
+    color: red;
+    background-color: black;
+    padding: 6px 10px 6px 10px;
+    margin-left: 190px;
+    margin-top: 16px;
+    border: none;
+}
+
+.warr-left button:hover {
+    background-color: red;
+    color: black;
+}
+
+.warr-left p {
+    width: 80%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.warr-left img {
+    width: 100%;
+    height: 260px;
+}
+
+.warr-right {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.warr-right img {
+    width: 100%;
+    height: 260px;
+}
+
+.warr-right h1 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.warr-right button {
+    color: red;
+    background-color: black;
+    padding: 6px 10px 6px 10px;
+    margin-left: 190px;
+    margin-top: 15px;
+    border: none;
+}
+
+.warr-right button:hover {
+    background-color: red;
+    color: black;
+}
+
+.warr-right p {
+    width: 90%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.contact {
+    width: 100%;
+    height: 80px;
+}
+
+.contact p {
+    padding-left: 30px;
+}
+
+.contact h1 {
+    color: red;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.form {
+    width: 100%;
+    height: 600px;
+}
+
+.form span {
+    color: red;
+}
+
+.form ::placeholder {
+    color: white;
+    padding-left: 20px;
+}
+
+.form input {
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 300px;
+    width: 50%;
+    margin-top: 15px;
+    height: 30px;
+}
+
+.form input:hover {
+    background-color: red;
+}
+
+.form textarea:hover {
+    background-color: red;
+}
+
+.form textarea {
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 300px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.form label {
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.form button {
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    margin-left: 300px;
+    width: 7%;
+    padding: 9px 0px;
+    margin-top: 15px;
+}
+
+.form button:hover {
+    background-color: red;
+    color: black;
+}
+
+.btn {
+    width: 100%;
+    height: 60px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.btn button {
+    padding: 15px;
+    border: none;
+    background-color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 60px;
+}
